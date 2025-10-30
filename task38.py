@@ -1,0 +1,32 @@
+numbers = (10,20,30,40,50,)
+numbers2 = numbers + (60,)
+print(numbers2)
+numbers3 = list(numbers2)
+print(type(numbers3))
+numbers3[2] = (35)
+numbers2 = tuple(numbers3)
+print(numbers2)
+
+values = (15,5,30,25,10)
+values2 = list(values)
+values2.sort()
+print(values2)
+
+fruits= ("apple","banana","cherry","banana","mango","banana")
+fruits2 = fruits.count("banana")
+print("banana count:" , fruits2)
+fruits = tuple(item for item in fruits if item !="banana")
+print(fruits)
+
+
+names = ("Alice", "Bob", "Charlie", "David")
+names2 = list(names)
+names2.sort(reverse=True)
+print(names2)
+
+colors = ("red", "blue", "green")
+colors2 = list(colors)
+colors2.insert(1 ,"yellow")
+print(colors2)
+colors2.extend(["yellow","orange"])
+print(colors2)

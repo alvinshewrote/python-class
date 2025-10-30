@@ -1,0 +1,17 @@
+trainees=["john",[2,["james","mary"]]]
+print(trainees[1][0])
+print(trainees[1][1][0])
+trainees.append(56)
+print(trainees)
+trainees[1][1].insert(0,"james")
+print(trainees)
+trainees[1][1].insert(1,"mike")
+print(trainees)
+trainees[1][0]="8"
+print(trainees)
+trainees=["john",[2,["james","mary"]]]
+trainees[1][1].remove("mary")
+trainees.remove("john")
+print(trainees)
+trainees=["john",[2,["james","mary"]]]
+print(len(trainees))
