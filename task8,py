@@ -1,0 +1,11 @@
+speed = int(input("Car Speed:"))
+
+if speed <= 70:
+    x = 1
+    print("Ok")
+    
+elif speed > 75:
+    demerit_point = + x
+    
+    
+    
