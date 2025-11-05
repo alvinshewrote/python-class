@@ -6,4 +6,4 @@ while True:
         print(f"The sum of {num1} and {num2} is: {total}")
         
     except ValueError:
-        print("Invalid character entered! Please enter numbers only.\n")
+        print("Invalid character entered! Please enter numbers only.")
