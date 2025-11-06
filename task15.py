@@ -46,6 +46,15 @@ def calculate_nhif(gross_salary):
         return 1700
 
 
+
+
+
+basic_salary = get_basic_salary()
+benefits = get_benefits()
+
+calculate_net_salary(basic_salary, benefits)
+
+
 def calculate_nssf(gross_salary):
     if gross_salary <= 18000:
         return gross_salary * 0.06
@@ -89,7 +98,3 @@ def calculate_net_salary(basic_salary, benefits):
 
     return net_salary
 
-basic_salary = get_basic_salary()
-benefits = get_benefits()
-
-calculate_net_salary(basic_salary, benefits)
